@@ -1,0 +1,55 @@
+body {
+    background-image: url("../img/background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navbar {
+    margin-top: 30px;
+    color: black;
+    background: rgba(0, 0, 0, 0);
+    border-width: 0;
+    font-size: 20px;
+}
+
+.text-center {
+    color: white;
+    margin-top: -100px;
+    text-shadow: 0px 0px 3px #000;
+    position: fixed;
+    margin-left: 350px;
+    top: 40%;
+    z-index: -1;
+}
+
+.head h1 {
+    font-size: 80px;
+    font-weight: 300;
+}
+
+.head p {
+    font-size: 32px;
+}
+
+.white-bar {
+    border-bottom: 7px solid white;
+    height: 7px;
+}
+
+.about {
+    margin-left: 0;
+    width: 100vw;
+    color: white;
+    background-color: #334959;
+    font-size: 21px;
+}
+
+.about img {
+    margin-top: 50px;
+    border-width: 5px;
+    border-color: white;
+    border-style: solid;
+}
