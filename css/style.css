@@ -76,69 +76,10 @@ body {
 
 .portfolio {
     display: block;
+    height:1000px;
 }
 
-.left {
-    color: white;
-    border-width: 0;
-    border-right-width: 2px;
-    border-style: solid;
-    border-color: white;
-    height: 1000px;
-    width: 50%;
-}
 
-.right {
-    height: 1000px;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-}
-
-.right-long {
-    border-width: 1px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 100px;
-    width: 200px;
-    text-align: center;
-    color: white;
-    left: 50%;
-}
-
-.right-short {
-    border-width: 1px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 0;
-    width: 150px;
-    text-align: center;
-    color: white;
-    left: 50%;
-}
-
-.left-long {
-    border-width: 1px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 100px;
-    margin-left: -200px;
-    width: 200px;
-    text-align: center;
-    color: white;
-
-}
-
-.left-short {
-    border-width: 1px;
-    border-style: solid;
-    border-color: white;
-    margin-top: 0px;
-    margin-left: -150px;
-    width: 150px;
-    text-align: center;
-    color: white;
-
-}
 
 .contact {
     color: white;
