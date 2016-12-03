@@ -20,7 +20,12 @@ body {
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
     color: white;
 }
-
+.title{
+    color:white;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
 
 .scrolled {
     background: white;
@@ -77,6 +82,7 @@ body {
 .portfolio {
     display: block;
     height:1000px;
+    padding-top:20px;
 }
 
 
