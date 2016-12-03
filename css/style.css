@@ -8,12 +8,30 @@ body {
 }
 
 .navbar {
-    margin-top: 30px;
+    padding-top: 30px;
     color: black;
     background: rgba(0, 0, 0, 0);
     border-width: 0;
     font-size: 20px;
+    -webkit-transition: background 1s, padding-top 1.3s, padding-bottom 1.3s;
+    transition: background 1s, padding-top 1.3s, padding-bottom 1.3s;
 }
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: white;
+}
+
+
+.scrolled {
+    background: white;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.scrolled .navbar-nav>li>a:hover {
+    color: black;
+}
+
 
 .text-center {
     color: white;
@@ -45,7 +63,7 @@ body {
     color: white;
     background-color: #1F2C37;
     font-size: 21px;
-    height:70vh;
+    height: 70vh;
 }
 
 .about img {
@@ -55,7 +73,74 @@ body {
     border-style: solid;
     width: 450px;
 }
-.contact{
+
+.portfolio {
+    display: block;
+}
+
+.left {
+    color: white;
+    border-width: 0;
+    border-right-width: 2px;
+    border-style: solid;
+    border-color: white;
+    height: 1000px;
+    width: 50%;
+}
+
+.right {
+    height: 1000px;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+.right-long {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 100px;
+    width: 200px;
+    text-align: center;
+    color: white;
+    left: 50%;
+}
+
+.right-short {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 0;
+    width: 150px;
+    text-align: center;
+    color: white;
+    left: 50%;
+}
+
+.left-long {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 100px;
+    margin-left: -200px;
+    width: 200px;
+    text-align: center;
+    color: white;
+
+}
+
+.left-short {
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 0px;
+    margin-left: -150px;
+    width: 150px;
+    text-align: center;
+    color: white;
+
+}
+
+.contact {
     color: white;
     background-color: #1f2c37;
 }
