@@ -28,7 +28,7 @@
             $('.active').removeClass('active');
             $(".home-btn").addClass("active");
         }
-        if ((height > 800) && (height < 900)) {
+        if ((height > 800) && (height < 980)) {
             $('.active').removeClass('active');
             $(".about-btn").addClass("active");
         }
@@ -45,6 +45,8 @@
      *                                      MENU
      * ------------------------------------------------------------------------------*/
     $(".home-btn").click(function () {
+        $('.active').removeClass('active');
+        $(".home-btn").addClass("active");
         $('html, body').animate({
             scrollTop: $(".menu").offset().top
         }, 1000);
