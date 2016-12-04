@@ -44,6 +44,13 @@
     /*-------------------------------------------------------------------------------
      *                                      MENU
      * ------------------------------------------------------------------------------*/
+    $(".navbar-brand").click(function () {
+        $('.active').removeClass('active');
+        $(".home-btn").addClass("active");
+        $('html, body').animate({
+            scrollTop: $(".menu").offset().top
+        }, 1000);
+    });
     $(".home-btn").click(function () {
         $('.active').removeClass('active');
         $(".home-btn").addClass("active");
@@ -65,6 +72,18 @@
         $('html, body').animate({
             scrollTop: $(".contact").offset().top
         }, 1000);
+    });
+    /*-------------------------------------------------------------------------------
+     *                                      PORTFOLIO
+     * ------------------------------------------------------------------------------*/
+
+    $(".hover").each(function(index,element){
+       $(this).mouseover(function(){
+           $(this).addClass("hover-mask");
+       });
+        $(this).mouseout(function(){
+            $(this).removeClass("hover-mask");
+        });
     });
 
 })();
