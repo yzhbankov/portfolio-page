@@ -7,7 +7,7 @@
      * ------------------------------------------------------------------------------*/
     $(document).ready(function () {
 
-            $(".preloader").fadeOut(500);
+        $(".preloader").fadeOut(500);
 
         /*-------------------------------------------------------------------------------
          *                                      HEAD
@@ -20,7 +20,6 @@
 
         $(window).scroll(function () {
             var height = $(window).scrollTop();
-            console.log(height);
             if (height < 400) {
                 $(".head").css("opacity", (400 - height) / 400);
             } else {
@@ -52,15 +51,11 @@
          *                                      MENU
          * ------------------------------------------------------------------------------*/
         $(".navbar-brand").click(function () {
-            $('.active').removeClass('active');
-            $(".home-btn").addClass("active");
             $('html, body').animate({
                 scrollTop: $(".menu").offset().top
             }, 1000);
         });
         $(".home-btn").click(function () {
-            $('.active').removeClass('active');
-            $(".home-btn").addClass("active");
             $('html, body').animate({
                 scrollTop: $(".menu").offset().top
             }, 1000);
