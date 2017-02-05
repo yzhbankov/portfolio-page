@@ -162,6 +162,14 @@ body {
     display:none;
 }
 
+.portfolio-title{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
 @media (max-width:991px){
     .navbar {
         padding-top: 10px;
