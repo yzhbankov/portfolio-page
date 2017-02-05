@@ -134,5 +134,37 @@
                 $(this).removeClass("hover-mask");
             });
         });
+        /*-------------------------------------------------------------------------------
+         *                                      FRONT/BACK/FULL
+         * ------------------------------------------------------------------------------*/
+
+        $(".switch-btn").each(function (index, element) {
+            var same = this;
+            $(same).click(function () {
+                if ($(this).text() == "Back End") {
+                    $(".front-end").hide();
+                    $(".full-stack").hide();
+                    $(".data-vis").hide();
+                    $(".back-end").show();
+                } else if ($(this).text() == "Front End") {
+                    $(".front-end").show();
+                    $(".full-stack").hide();
+                    $(".back-end").hide();
+                    $(".data-vis").hide();
+                } else if ($(this).text() == "Full Stack") {
+                    $(".front-end").hide();
+                    $(".full-stack").show();
+                    $(".back-end").hide();
+                    $(".data-vis").hide();
+                } else {
+                    $(".front-end").hide();
+                    $(".full-stack").hide();
+                    $(".back-end").hide();
+                    $(".data-vis").show();
+                }
+
+            });
+        });
+
     });
 })();

@@ -136,6 +136,32 @@ body {
     text-align: center;
 }
 
+.switchers{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.switch-btn{
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0;
+    padding: 5px;
+}
+
+.back-end{
+    display:none;
+}
+
+.full-stack{
+    display:none;
+}
+
+.data-vis{
+    display:none;
+}
+
 @media (max-width:991px){
     .navbar {
         padding-top: 10px;
