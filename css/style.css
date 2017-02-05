@@ -1,28 +1,30 @@
-body {
+.head {
     background-image: url("../img/background.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
 }
-.spiner{
+
+.spiner {
     position: absolute;
-    width:64px;
-    height:64px;
-    top:50%;
-    left:50%;
+    width: 64px;
+    height: 64px;
+    top: 50%;
+    left: 50%;
     margin: -32px 0 0 -32px;
     background: url("../img/spiner.gif") no-repeat;
 }
-.preloader{
+
+.preloader {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     background: #fff;
-    z-index:99999;
+    z-index: 99999;
 }
 
 .navbar {
@@ -35,11 +37,12 @@ body {
     transition: background 1s, padding-top 1.3s, padding-bottom 1.3s;
 }
 
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
     color: white;
 }
-.title{
-    color:white;
+
+.title {
+    color: white;
     text-align: center;
     font-size: 60px;
     padding-bottom: 20px;
@@ -51,21 +54,20 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.scrolled .navbar-nav>li>a:hover {
+
+.scrolled .navbar-nav > li > a:hover {
     color: black;
 }
-.scrolled .navbar-header>.navbar-brand:hover{
+
+.scrolled .navbar-header > .navbar-brand:hover {
     color: black;
 }
 
 .text-center {
     color: white;
-    margin-top: -100px;
     text-shadow: 0px 0px 3px #000;
-    position: fixed;
-    margin-left: 350px;
-    top: 40%;
-    z-index: -1;
+    margin: 0 auto;
+    padding-top: 300px;
 }
 
 .head h1 {
@@ -88,43 +90,53 @@ body {
     color: white;
     background-color: #1F2C37;
     font-size: 21px;
-    height: 70vh;
+    padding-bottom: 100px;
 }
 
 .about img {
     margin-left: -100px;
-    border-width: 5px;
-    border-color: white;
-    border-style: solid;
     width: 450px;
+}
+
+.portfolio-block {
+    background-image: url("../img/portfolio-background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .portfolio {
     display: block;
-    height:1100px;
-    padding-top:20px;
+    height: 1100px;
+    width: 100%;
+    padding-top: 20px;
 }
-.project{
-    margin-top:30px;
+
+.project {
+    margin-top: 30px;
 }
-.hover{
+
+.hover {
     position: absolute;
     padding-top: 130px;
-    margin-left:15px;
-    top:0;
+    margin-left: 15px;
+    top: 0;
     left: 0;
-    width:92%;
+    width: 92%;
     height: 100%;
     background: #1F2C37;
-    color:white;
-    opacity:0;
+    color: white;
+    opacity: 0;
     font-size: 20px;
     text-align: center;
-    -webkit-transition:all 1.3s ease-out;
+    -webkit-transition: all 1.3s ease-out;
     transition: all 0.8s ease-out;
 }
-.hover-mask{
-    opacity:0.9; !important;
+
+.hover-mask {
+    opacity: 0.9;
+!important;
     padding-top: 60px;
 }
 
@@ -132,17 +144,18 @@ body {
     color: white;
     background-color: #1f2c37;
 }
-.block-title{
+
+.block-title {
     text-align: center;
 }
 
-.switchers{
+.switchers {
     color: white;
     font-size: 20px;
     text-align: center;
 }
 
-.switch-btn{
+.switch-btn {
     border-width: 1px;
     border-style: solid;
     border-color: white;
@@ -150,19 +163,19 @@ body {
     padding: 5px;
 }
 
-.back-end{
-    display:none;
+.back-end {
+    display: none;
 }
 
-.full-stack{
-    display:none;
+.full-stack {
+    display: none;
 }
 
-.data-vis{
-    display:none;
+.data-vis {
+    display: none;
 }
 
-.portfolio-title{
+.portfolio-title {
     text-align: center;
     font-size: 20px;
     color: white;
@@ -170,7 +183,7 @@ body {
     margin-bottom: -10px;
 }
 
-@media (max-width:991px){
+@media (max-width: 991px) {
     .navbar {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -181,7 +194,8 @@ body {
         -webkit-transition: background 1s, padding-top 1.3s, padding-bottom 1.3s;
         transition: background 1s, padding-top 1.3s, padding-bottom 1.3s;
     }
-    .navbar-inverse .navbar-toggle .icon-bar{
+
+    .navbar-inverse .navbar-toggle .icon-bar {
         background-color: black;
     }
 
@@ -195,21 +209,23 @@ body {
         z-index: -1;
     }
 
-    .title{
-        color:white;
+    .title {
+        color: white;
         text-align: center;
         font-size: 30px;
         padding-bottom: 20px;
         font-weight: 100;
     }
+
     .head h1 {
         font-size: 35px;
         font-weight: 600;
     }
+
     .about {
         padding-top: 10px;
         width: 100%;
-        height:150%;
+        height: 150%;
         color: white;
         background-color: #1F2C37;
         font-size: 21px;
@@ -223,67 +239,77 @@ body {
         border-style: solid;
         width: 450px;
     }
-    .about h2{
+
+    .about h2 {
         font-size: 30px;
     }
+
     .portfolio {
         display: block;
-        height:2550px;
-        padding-top:20px;
+        height: 2550px;
+        padding-top: 20px;
     }
-    .project{
-        margin-top:30px;
+
+    .project {
+        margin-top: 30px;
         margin-left: 40px;
     }
-    .row .row{
-        margin-right: 0; !important;
+
+    .row .row {
+        margin-right: 0;
+    !important;
     }
 }
 
-@media (max-width:415px){
+@media (max-width: 415px) {
     .about {
         padding-top: 10px;
         width: 100%;
-        height:135%;
+        height: 135%;
         color: white;
         background-color: #1F2C37;
         font-size: 21px;
     }
+
     .portfolio {
         display: block;
-        height:2800px;
-        padding-top:20px;
+        height: 2800px;
+        padding-top: 20px;
     }
 
 }
-@media (max-width:375px){
+
+@media (max-width: 375px) {
     .about {
         padding-top: 10px;
         width: 100%;
-        height:150%;
+        height: 150%;
         color: white;
         background-color: #1F2C37;
         font-size: 21px;
     }
+
     .portfolio {
         display: block;
-        height:2550px;
-        padding-top:20px;
+        height: 2550px;
+        padding-top: 20px;
     }
 
 }
-@media (max-width:320px){
+
+@media (max-width: 320px) {
     .about {
         padding-top: 10px;
         width: 100%;
-        height:180%;
+        height: 180%;
         color: white;
         background-color: #1F2C37;
         font-size: 21px;
     }
+
     .portfolio {
         display: block;
-        height:2250px;
-        padding-top:20px;
+        height: 2250px;
+        padding-top: 20px;
     }
 }

@@ -22,12 +22,12 @@
             var height = $(window).scrollTop();
             console.log(height);
             if ($(window).width() > 991) {
-                if (height < 400) {
+/*                if (height < 400) {
                     $(".head").css("opacity", (400 - height) / 400);
                 } else {
                     $(".head").css("opacity", 0);
-                }
-                if (height > 850) {
+                }*/
+                if (height > 100) {
                     $(".navbar").addClass("scrolled");
                 } else {
                     $(".navbar").removeClass("scrolled");
@@ -49,11 +49,11 @@
                     $(".contacts-btn").addClass("active");
                 }
             } else if ($(window).width() < 350) {
-                if (height < 400) {
+/*                if (height < 400) {
                     $(".head").css("opacity", (400 - height) / 400);
                 } else {
                     $(".head").css("opacity", 0);
-                }
+                }*/
                 if (height < 490) {
                     $('.active').removeClass('active');
                     $(".home-btn").addClass("active");
@@ -71,11 +71,11 @@
                     $(".contacts-btn").addClass("active");
                 }
             } else {
-                if (height < 400) {
+/*                if (height < 400) {
                     $(".head").css("opacity", (400 - height) / 400);
                 } else {
                     $(".head").css("opacity", 0);
-                }
+                }*/
                 if (height < 580) {
                     $('.active').removeClass('active');
                     $(".home-btn").addClass("active");
