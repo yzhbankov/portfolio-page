@@ -37,8 +37,6 @@
     transition: background 1s, padding-top 1.3s, padding-bottom 1.3s;
 }
 
-
-
 .title {
     color: white;
     text-align: center;
@@ -186,6 +184,7 @@
 }
 
 @media (max-width: 991px) {
+
     .navbar {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -200,15 +199,11 @@
     .navbar-inverse .navbar-toggle .icon-bar {
         background-color: black;
     }
-
     .text-center {
         color: white;
         margin-top: -50px;
         text-shadow: 0px 0px 3px #000;
-        position: fixed;
         margin-left: 0;
-        top: 40%;
-        z-index: -1;
     }
 
     .title {
@@ -217,6 +212,31 @@
         font-size: 30px;
         padding-bottom: 20px;
         font-weight: 100;
+    }
+
+    .switch-btn{
+        width: 150px;
+        height:50px;
+        margin-bottom: 5px;
+    }
+
+    .portfolio-title{
+        font-size: 25px;
+    }
+
+    .hover {
+        position: absolute;
+        padding-top: 60px;
+        margin-left: 15px;
+        top: 0;
+        left: 0;
+        width: 92%;
+        height: 100%;
+        background: #1F2C37;
+        color: white;
+        opacity: 0.7;
+        font-size: 20px;
+        text-align: center;
     }
 
     .head h1 {
@@ -236,9 +256,6 @@
     .about img {
         margin-left: 0;
         margin-bottom: 20px;
-        border-width: 5px;
-        border-color: white;
-        border-style: solid;
         width: 450px;
     }
 
@@ -248,8 +265,9 @@
 
     .portfolio {
         display: block;
-        height: 2550px;
+        height: 100%;
         padding-top: 20px;
+        padding-bottom: 10px;
     }
 
     .project {
@@ -264,6 +282,7 @@
 }
 
 @media (max-width: 415px) {
+
     .about {
         padding-top: 10px;
         width: 100%;
@@ -275,13 +294,15 @@
 
     .portfolio {
         display: block;
-        height: 2800px;
+        height: 100%;
         padding-top: 20px;
+        padding-bottom: 10px;
     }
 
 }
 
 @media (max-width: 375px) {
+
     .about {
         padding-top: 10px;
         width: 100%;
@@ -293,13 +314,15 @@
 
     .portfolio {
         display: block;
-        height: 2550px;
+        height: 100%;
         padding-top: 20px;
+        padding-bottom: 10px;
     }
 
 }
 
 @media (max-width: 320px) {
+
     .about {
         padding-top: 10px;
         width: 100%;
@@ -311,7 +334,8 @@
 
     .portfolio {
         display: block;
-        height: 2250px;
+        height: 100%;
         padding-top: 20px;
+        padding-bottom: 10px;
     }
 }
