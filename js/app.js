@@ -97,11 +97,11 @@
         /*-------------------------------------------------------------------------------
          *                                      MENU
          * ------------------------------------------------------------------------------*/
-        $(".navbar-brand").click(function () {
+/*        $(".navbar-brand").click(function () {
             $('html, body').animate({
                 scrollTop: $(".menu").offset().top
             }, 1000);
-        });
+        });*/
         $(".home-btn").click(function () {
             $('html, body').animate({
                 scrollTop: $(".menu").offset().top
