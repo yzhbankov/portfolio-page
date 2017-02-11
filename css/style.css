@@ -184,7 +184,9 @@
 }
 
 @media (max-width: 991px) {
-
+    .head{
+        height: 100vh;
+    }
     .navbar {
         padding-top: 10px;
         padding-bottom: 10px;
@@ -282,6 +284,9 @@
 }
 
 @media (max-width: 415px) {
+    .head{
+        height: 100vh;
+    }
 
     .about {
         padding-top: 10px;
@@ -302,6 +307,9 @@
 }
 
 @media (max-width: 375px) {
+    .head{
+        height: 100vh;
+    }
 
     .about {
         padding-top: 10px;
@@ -322,7 +330,10 @@
 }
 
 @media (max-width: 320px) {
-
+    .head{
+        height: 100vh;
+    }
+    
     .about {
         padding-top: 10px;
         width: 100%;
