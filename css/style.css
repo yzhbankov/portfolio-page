@@ -285,7 +285,7 @@
 
 @media (max-width: 415px) {
     .head{
-        height: 100vh;
+        height: 110vh;
     }
 
     .about {
@@ -308,7 +308,7 @@
 
 @media (max-width: 375px) {
     .head{
-        height: 100vh;
+        height: 110vh;
     }
 
     .about {
@@ -331,7 +331,7 @@
 
 @media (max-width: 320px) {
     .head{
-        height: 100vh;
+        height: 110vh;
     }
     
     .about {
