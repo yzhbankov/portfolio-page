@@ -185,7 +185,7 @@
 
 @media (max-width: 991px) {
     .head{
-        height: 100vh;
+        height: 110vh;!important;
     }
     .navbar {
         padding-top: 10px;
@@ -285,7 +285,7 @@
 
 @media (max-width: 415px) {
     .head{
-        height: 110vh;
+        height: 110vh;!important;
     }
 
     .about {
@@ -308,7 +308,7 @@
 
 @media (max-width: 375px) {
     .head{
-        height: 110vh;
+        height: 110vh;!important;
     }
 
     .about {
@@ -331,7 +331,7 @@
 
 @media (max-width: 320px) {
     .head{
-        height: 110vh;
+        height: 110vh;!important;
     }
     
     .about {
